@@ -1,0 +1,41 @@
+[Unit]
+Description=Temporal Workflow Engine (Docker Compose)
+Documentation=https://docs.temporal.io
+Requires=docker.service
+After=docker.service network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+
+WorkingDirectory=/home/nancybk/durable-pdf-pipeline/setup/samples-server/compose
+
+EnvironmentFile=/home/nancybk/durable-pdf-pipeline/setup/samples-server/compose/.env
+
+ExecStartPre=-/bin/mkdir -p /var/lib/docker/volumes/temporal_postgres-data
+
+ExecStart=/usr/bin/docker compose \
+  -f /home/nancybk/durable-pdf-pipeline/setup/samples-server/compose/docker-compose-postgres.yml \
+  up -d
+
+ExecStop=/usr/bin/docker compose \
+  -f /home/nancybk/durable-pdf-pipeline/setup/samples-server/compose/docker-compose-postgres.yml \
+  down
+
+ExecReload=/usr/bin/docker compose \
+  -f /home/nancybk/durable-pdf-pipeline/setup/samples-server/compose/docker-compose-postgres.yml \
+  restart
+
+Restart=on-failure
+RestartSec=10s
+TimeoutStartSec=300
+TimeoutStopSec=120
+LimitNOFILE=65536
+LimitNPROC=8192
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=temporal
+
+[Install]
+WantedBy=multi-user.target
