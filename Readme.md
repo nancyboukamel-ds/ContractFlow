@@ -1,8 +1,8 @@
-# Redline — AI Legal Contract Review Platform
+# Redline AI Legal Contract Review Platform
 
 > **Durable, human-in-the-loop contract risk analysis powered by Temporal, RAG, and LLMs**
 
-Redline is a production-grade AI platform that ingests legal contracts (PDF), extracts and classifies risk clauses using LLMs, stores semantic embeddings for RAG-based search, and orchestrates a human-in-the-loop approval workflow — all on top of Temporal's durable execution engine.
+Redline is a production-grade AI platform that ingests legal contracts (PDF), extracts and classifies risk clauses using LLMs, stores semantic embeddings for RAG-based search, and orchestrates a human-in-the-loop approval workflow all on top of Temporal's durable execution engine.
 
 Built against the **CUAD dataset** (510 real commercial contracts, 13,000+ expert annotations across 41 clause categories) for ground-truth evaluation.
 
@@ -24,7 +24,6 @@ Built against the **CUAD dataset** (510 real commercial contracts, 13,000+ exper
 - [API Reference](#api-reference)
 - [Database Schema](#database-schema)
 - [Workflow Screenshots](#workflow-screenshots)
-- [Results](#results)
 
 ---
 
@@ -324,36 +323,6 @@ CUADBatchIngestionWorkflow (parent)
     └── Progress queryable via get_progress() at any time
 ```
 
----
-
-## AI Contract Review App
-
-### Temporal Primitives Used
-
-| Primitive | Where | Purpose |
-|---|---|---|
-| **Signal** | `assign_reviewer` | Fire-and-forget: record reviewer name |
-| **Query** | `get_status`, `get_report` | Read workflow state without affecting it |
-| **Update** | `submit_decision` | Validated, synchronous decision with response |
-| **Child Workflow** | `PDFSummaryWorkflow` | One per PDF, parallel fan-out |
-| **wait_condition** | HITL pause | Suspend workflow for up to 3 days |
-| **ParentClosePolicy.ABANDON** | Child workflows | Children survive parent cancellation |
-
-### Pydantic Schema Validation
-
-LLM outputs are validated against Pydantic schemas before being accepted:
-
-```python
-class SynthesisReportSchema(BaseModel):
-    overall_risk_level: Literal["High", "Medium", "Low"]
-    risk_justification: str
-    top_cross_contract_risks: list[CrossContractRisk] = Field(..., max_length=8)
-    recommended_actions: list[str]
-```
-
-If validation fails, the LLM is retried up to 3 times with the error appended to the prompt — self-healing output.
-
----
 
 ## Evaluation Framework
 
@@ -462,19 +431,6 @@ DATABASE_URL=postgresql://redline:redline123@localhost:5432/redline
 TEMPORAL_HOST=localhost:7233
 TEMPORAL_NAMESPACE=default
 CUAD_ROOT=/path/to/CUAD_v1
-```
-
-### 5. Download CUAD dataset
-
-Download from https://www.atticusprojectai.org/cuad and extract to `CUAD_v1/` in the project root.
-
-```
-CUAD_v1/
-├── master_clauses.csv
-└── full_contract_pdf/
-    ├── Part_I/
-    ├── Part_II/
-    └── Part_III/
 ```
 
 ---
@@ -630,8 +586,6 @@ CREATE INDEX clauses_fts_idx
 
 ## Workflow Screenshots
 
-> Add screenshots from http://localhost:8080 here showing:
-
 ### 1. Temporal Workers — both workers running
 
 `[INSERT: screenshot of Workers page showing pipeline-queue and contract-review-queue workers]`
@@ -654,41 +608,6 @@ CREATE INDEX clauses_fts_idx
 
 ---
 
-## Results
-
-### Pipeline Results (10 contract test run)
-
-```
-Contracts ingested : 10 / 10 (100% success rate)
-Total clauses      : 120
-CUAD ground truth  : 115 (human-labeled, confidence=1.0)
-LLM detected       : 5   (additional clauses, confidence=0.8-0.9)
-Embeddings         : 120 / 120 (100% embedded)
-Extraction strategy: direct (100% — all CUAD PDFs have native text)
-Quality score      : 1.0 (all contracts)
-```
-
-### Contract Review — Single PDF
-
-```json
-{
-  "overall_risk_level": "High",
-  "risk_justification": "Community mental health risks linked to inadequate
-    urban planning present significant liability and stakeholder resistance.",
-  "top_cross_contract_risks": [
-    {
-      "risk": "Increased healthcare liabilities stemming from mental health
-        crises related to urban infrastructure deficiencies.",
-      "affected_contracts": ["s3://temporal-dev/files/paper.pdf"]
-    }
-  ],
-  "recommended_actions": [
-    "Step 1: Conduct a comprehensive stakeholder analysis...",
-    "Step 2: Develop a clear communication strategy...",
-    "Step 3: Create contingency plans for addressing liability concerns..."
-  ]
-}
-```
 
 ### CUAD Clause Distribution (500 contracts)
 
@@ -706,21 +625,6 @@ Non-Compete                 113 contracts (23%) | 215 excerpts
 Uncapped Liability          109 contracts (22%) | 148 excerpts
 Liquidated Damages           60 contracts (12%) | 110 excerpts
 ```
-
----
-
-## Roadmap
-
-- [ ] **Eval framework** — LLM-as-judge scoring against CUAD ground truth, nightly CI eval
-- [ ] **Contract Q&A** — `ContractQAWorkflow` with cited answers from hybrid RAG
-- [ ] **Full text chunking** — sliding window chunks for complete document coverage
-- [ ] **Next.js frontend** — real-time review UI with WebSocket progress, clause highlighting
-- [ ] **Voice review channel** — Deepgram STT → LLM intent classification → `submit_decision`
-- [ ] **Temporal schedules** — nightly eval runs, automatic prompt regression detection
-- [ ] **Multi-tenancy** — per-tenant S3 paths, database isolation, RBAC
-- [ ] **Observability** — OpenTelemetry tracing, Grafana dashboards, cost tracking per workflow
-
----
 
 ## License
 
