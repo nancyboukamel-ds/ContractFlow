@@ -586,25 +586,27 @@ CREATE INDEX clauses_fts_idx
 
 ## Workflow Screenshots
 
-### 1. Temporal Workers — both workers running
+### Batch Ingestion — 10 contracts, 0 failures
+![Batch Ingestion](docs/ingestion.png)
 
-`[INSERT: screenshot of Workers page showing pipeline-queue and contract-review-queue workers]`
+10 contracts ingested in 2m 34s with concurrency=3.
+The timeline shows the fan-out pattern — 3 child workflows
+running simultaneously per batch.
+Result: `{"succeeded": 10, "failed": 0, "total": 10}`
 
-### 2. Batch Ingestion Workflow
+---
 
-`[INSERT: screenshot of CUADBatchIngestionWorkflow showing completed child workflows]`
+### Contract Review — Full HITL Lifecycle
+![Contract Review Approved](docs/contract_approved.png)
 
-### 3. Single Contract Ingestion — Event History
+Full contract review workflow showing:
+- `PDFSummaryWorkflow` child (PDF extraction)
+- `call_llm` activity (LLM synthesis)  
+- 3-day `wait_condition` pause (yellow bar) — workflow suspended waiting for human
+- `assign_reviewer` Signal — reviewer assigned
+- `submit_decision` Update — report approved by Nancy
 
-`[INSERT: screenshot of IngestContractWorkflow event history showing all 7 activity steps]`
-
-### 4. Contract Review Workflow — HITL in action
-
-`[INSERT: screenshot of ContractReviewWorkflow showing awaiting-review status]`
-
-### 5. Contract Review — Approved
-
-`[INSERT: screenshot of ContractReviewWorkflow completed with approval]`
+Duration: 21m 18s | Approved by: Nancy | Risk Level: High
 
 ---
 
