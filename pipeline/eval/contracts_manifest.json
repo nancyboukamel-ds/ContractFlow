@@ -1,0 +1,404 @@
+[
+  {
+    "filename": "CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Affiliate_Agreements/CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.pdf",
+    "contract_type": "Affiliate Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "The foregoing states the entire liability of Company with respect to infringement of intellectual property rights.', \"Company's liability shall not exceed the fees that MA has paid under this Agreement.\", 'Company is not liable for incidental, special or consequential damages for any reason (including loss of data or other business or property damage), even if foreseeable or if MA or Customer has advised of such a claim. | IN NO EVENT SHALL COMPANY BE LIABLE TO \"MA\", ITS CLIENTS, OR ANY THIRD PARTY FOR ANY TORT OR CONTRACT DAMAGES OR INDIRECT, SPECIAL, GENERAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO, LOSS OF PROFITS OR ANTICIPATED PROFITS AND LOSS OF GOODWILL, ARISING IN CONNECTION WITH THE USE (OR INABILITY TO USE) OR DISTRIBUTION OF THE TECHNOLOGY FOR ANY PURPOSE WHATSOEVER.', \"COMPANY'S SOLE AND EXCLUSIVE LIABILITY FOR THE WARRANTY PROVIDED IN SUBPARAGRAH (A) HEREOF SHALL BE TO CORRECT THE TECHNOLOGY TO OPERATE IN SUBSTANTIAL ACCORDANCE WITH ITS THEN CURRE",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "MA may not assign, sell, lease or otherwise transfer in whole or in party any of the rights granted pursuant to this Agreement without prior written approval of Company.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "MA shall keep accurate records of the sales of the Technology and Maintenance, including Client Registration Cards and shall make these records available for review by a representative of Company within ten (10) business days following the end of each month.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Minimum Commitment",
+        "text": "INITIAL ORDER COMMITMENT - MA commits to purchase a minimum of 100 Units in aggregate within the Territory within the first six months of term of this Agreement.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 4
+  },
+  {
+    "filename": "EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/License_Agreements/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.pdf",
+    "contract_type": "Content License Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Termination For Convenience",
+        "text": "Notwithstanding any other provision of this Agreement, Rogers may terminate this Agreement, at any time, upon sixty (60) days' prior written notice to Licensor.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Cap On Liability",
+        "text": "Except with respect to any claim or liability arising from an infringement of any third party intellectual property right, in no event shall either party be liable for any special, indirect, consequential, punitive or incidental damages of any kind",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Uncapped Liability",
+        "text": "Except with respect to any claim or liability arising from an infringement of any third party intellectual property right, in no event shall either party be liable for any special, indirect, consequential, punitive or incidental damages of any kind.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "This Agreement may not be assigned, sold or transferred without the prior written consent of the other party. | Notwithstanding the foregoing, Rogers may, without consent, assign its rights and obligations under this Agreement in whole or in part to: (i) a person that directly or indirectly controls, is controlled by or is under common control with Rogers; or (ii) a purchaser of all or substantially all of the assets used in connection with the ROD Service. A change of control of Rogers shall not be considered an assignment of this Agreement. | Any purported assignment, sale, or transfer in contravention of this Section shall be null and void.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "During the Term, and for a period of twelve (12) months thereafter, Rogers (and its representatives) shall have the right, upon reasonable prior written notice to Licensor, and during regular business hours, to inspect and/or audit Licensor's books and records to confirm compliance with Licensor's obligations under this Section.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Minimum Commitment",
+        "text": "Licensor shall make available to Rogers, on a free trial basis and at no cost to Rogers, not less than ten (10) Licensed Programs at all times during the Term (each, a \"Promotional Program\") for distribution and exhibition on the ROD Service to promote the Licensed Programs and the ROD Service.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 6
+  },
+  {
+    "filename": "FulucaiProductionsLtd_20131223_10-Q_EX-10.9_8368347_EX-10.9_Content License Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/License_Agreements/FulucaiProductionsLtd_20131223_10-Q_EX-10.9_8368347_EX-10.9_Content License Agreement.pdf",
+    "contract_type": "Content License Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Exclusivity",
+        "text": "During the License Term (which is identified in the Deal Terms), Producer agrees that ConvergTV has the exclusive right to exercise the rights granted to it under this Agreement with respect to the Program, including those in Section 1, within the Licensed Territory.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "Each of the Parties may, at its own expense, audit the other Party's compliance with this Agreement, including but not limited to, auditing the other Party's representations and warranties.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 2
+  },
+  {
+    "filename": "GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/License_Agreements/GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.pdf",
+    "contract_type": "Content License Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "NEITHER PARTY SHALL BE LIABLE UNDER OR IN CONNECTION WITH THIS AGREEMENT FOR INDIRECT, INCIDENTAL, CONSEQUENTIAL, LIQUIDATED, SPECIAL OR EXEMPLARY DAMAGES OR PENALTIES, INCLUDING WITHOUT LIMITATION, LOSSES OF BUSINESS, REVENUE OR ANTICIPATED PROFITS, REGARDLESS OF WHETHER SUCH DAMAGE WAS FORESEEABLE AND WHETHER LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.', \"EACH PARTY'S LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT WILL NOT EXCEED AN AMOUNT EQUAL TO THE AGGREGATE AMOUNTS PAID OR PAYABLE TO LICENSOR IN THE TWELVE (12) MONTHS PRECEDING THE COMMENCEMENT OF THE CLAIM.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Uncapped Liability",
+        "text": "The provisions of Section 9.1 and Section 9.2 will not apply to limit the Licensee's indemnification obligations under Section 8.2, or in the case of Licensee's gross negligence or wilful misconduct.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Any purported assignment, delegation or transfer in violation of this Section 11.7 is void from the outset and shall be of no force or effect.', \"Licensee shall not assign or otherwise transfer any of its rights, or delegate or otherwise transfer any of its obligations or performance, under this Agreement, in each case whether voluntarily, involuntarily, by operation of law or otherwise, without Licensor's prior written consent.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Change Of Control",
+        "text": "For purposes of the preceding sentence, and without limiting its generality, any merger, consolidation or reorganization involving Licensee (regardless of whether Licensee is a surviving or disappearing entity) will be deemed to be a transfer of rights, obligations or performance under this Agreement for which Licensor's prior written consent is required.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Exclusivity",
+        "text": "Subject to Licensee's on\\xadgoing compliance with Section 3.2 and all other terms and conditions of this Agreement, Licensor grants to Licensee an exclusive (save for rights reserved to Licensor hereunder), non-transferable (except as provided in Section 11.7) and non- sublicensable license, during the License Term, to reproduce, perform, display, transmit and distribute the Licensed Content on the Licensee Siteand Related Media intended solely for use by End Usersin the Territory within the scope set forth in Schedule 1 (License Scope), which is attached hereto and incorporated herein by this reference.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "Licensor will pay the cost of such audits unless an audit reveals a discrepancy in payment or reporting of five percent (5%) or more, in which case the Licensee shall reimburse the Licensor for the reasonable cost of the audit.', \"Licensee shall make such books and records, and appropriate personnel, available during normal business hours for audit by Licensor or its authorized representative; provided that Licensor shall:   (a) provide Licensee with reasonable prior notice of any audit;   (b) undertake an audit no more than once per calendar year, unless a prior audit has disclosed a balance due; and   (c) conduct or cause to be conducted such audit in a manner designed to minimize disruption of Licensee's normal business operations.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 6
+  },
+  {
+    "filename": "IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/License_Agreements/IdeanomicsInc_20160330_10-K_EX-10.26_9512211_EX-10.26_Content License Agreement.pdf",
+    "contract_type": "Content License Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "EXCEPT FOR THE ABOVE INDEMNIFICATION OBLIGATIONS AND FOR BREACHES OF SECTION 14, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES ARISING OUT OF THIS AGREEMENT (INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS), WHETHER IN AN ACTION OR ARISING OUT OF BREACH OF CONTRACT, TORT OR ANY OTHER CAUSE OF ACTION EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Uncapped Liability",
+        "text": "EXCEPT FOR THE ABOVE INDEMNIFICATION OBLIGATIONS AND FOR BREACHES OF SECTION 14, NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES ARISING OUT OF THIS AGREEMENT (INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS), WHETHER IN AN ACTION OR ARISING OUT OF BREACH OF CONTRACT, TORT OR ANY OTHER CAUSE OF ACTION EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Except as otherwise specified in the previous sentence, Licensee may not sublicense any of its rights under Section 2(a) [License Grant] without Licensor's prior written consent, which shall not be unreasonably withheld or delayed.\", \"Licensee shall have the right to assign or sublicense any or all of its rights granted under this Agreement, in whole or in part, to third parties exhibiting the Titles in the ordinary course of Licensee's business with prior written notice to Licensor and subject to the applicable limitations (if any) in Section 2(a)(i) [License Grant]\", \"Neither party may assign its rights, duties or obligations under this Agreement to any third party in whole or in part, without the other party's prior written consent, except that (i) Licensee may assign its rights and obligations to this Agreement to any of its Affiliate or subsidiaries with the prior written consent of the Licensor, and (ii) Licensor may assign its rights and obligations in this Agreement to its Affi",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "Until one (1) year after the expiration of the Profit Participation of each Project, the books and records will be available for inspection by a certified accounting firm or CPA once per year upon reasonable advance notice.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 4
+  },
+  {
+    "filename": "DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Service Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Co_Branding/DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Service Agreement.pdf",
+    "contract_type": "Service Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "THE LIABILITY OF DELTATHREE FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, PRIMECALL'S DIRECT DAMAGES.\", \"THE LIABILITY OF PRIMECALL FOR DAMAGES OR ALLEGED DAMAGES HEREUNDER, WHETHER IN CONTRACT, TORT OR ANY OTHER LEGAL THEORY, IS LIMITED TO, AND WILL NOT EXCEED, DELTATHREE'S DIRECT DAMAGES.\", 'IN NO EVENT SHALL PRIMECALL BE LIABLE TO DELTATHREE FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT DELTATHREE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. | IN NO EVENT SHALL DELTATHREE BE LIABLE TO PRIMECALL FOR ANY SPECIAL, INCIDENTIAL OR CONSEQUENTIAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, REVENUES OR DATA WHETHER BASED ON BREACH OF CONTRACT, TORT OR OTHERWISE, WHETHER OR NOT PRIMECALL HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Except as provided in the preceding sentence, this Agreement may not be assigned by PrimeCall without the prior written consent of DeltaThree. | This Agreement may not be assigned by DeltaThree without the prior written consent of PrimeCall.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Change Of Control",
+        "text": "The term of this Agreement shall be effective as of the date first stated above and shall continue for a term of three (3) years, unless terminated earlier in accordance with the provisions of this Agreement (the \"Term\"); provided, however, that PrimeCall may elect to terminate this Agreement, upon thirty (30) days\\' written notice, at any time from and after the time that collectively RSL Communications, Ltd. and/or its Affiliates holds less than fifty percent (50%) of the voting control of DeltaThree\\'s outstanding shares.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 3
+  },
+  {
+    "filename": "EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Co_Branding/EdietsComInc_20001030_10QSB_EX-10.4_2606646_EX-10.4_Co-Branding Agreement.pdf",
+    "contract_type": "Co-Branding Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "Each party agrees that the sole and exclusive remedy for a breach of the warranties set forth in this Section 12 shall be the indemnification set forth in Section 13 below. | EXCEPT FOR BREACHES OF SECTION 11 OR BREACHES OF ANY LICENSE GRANT SET FORTH IN THIS AGREEMENT, IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, WHETHER OR NOT THAT PARTY HAS BEEN ADVISED OF, KNEW, OR SHOULD HAVE KNOWN OF, THE POSSIBILITY OF SUCH DAMAGE AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Uncapped Liability",
+        "text": "THE LIMITATIONS ON LIABILITY FOR DAMAGES SET FORTH IN THIS AGREEMENT SHALL BE INAPPLICABLE TO EACH PARTY'S CONTRACTUAL OBLIGATION TO INDEMNIFY THE OTHER PARTY AS SET FORTH IN SECTIONS 2.6 AND 13.\", 'EXCEPT FOR BREACHES OF SECTION 11 OR BREACHES OF ANY LICENSE GRANT SET FORTH IN THIS AGREEMENT, IN NO EVENT WILL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, WHETHER BASED ON BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE) OR OTHERWISE, WHETHER OR NOT THAT PARTY HAS BEEN ADVISED OF, KNEW, OR SHOULD HAVE KNOWN OF, THE POSSIBILITY OF SUCH DAMAGE AND NOTWITHSTANDING THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Any attempt to assign this Agreement other than as permitted above will be null and void.', \"Neither party may assign this Agreement, in whole or in part, without the other party's written consent (which will not be unreasonably delayed or withheld), except that no such consent will be required in connection with an assignment or transfer of this Agreement to (a) a party's successor in connection with a Change in Control of such party, provided that such successor is not a competitor of the other party, or (b) to any entity that is<omitted>controlled by, under common control with, or controls a party.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Change Of Control",
+        "text": "For purposes of this Agreement, \"Change in Control\" means a merger or consolidation of the party with, or any sale of all or substantially all of the assets of such party to, any other person, corporation or entity, unless as a result of such merger, consolidation or sale of assets the holders of such party\\'s voting securities prior thereto hold at least fifty percent (50%) of the total voting power represented by the voting securities of the surviving or successor corporation after such transaction.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Non-Compete",
+        "text": "During the Term, (a) Women.com will not buy, sell, display, distribute advertising from (including, but not limited to, banner ads, buttons, badges, text links, hyperlinks or editorial mentions) or otherwise promote a Competitive Company on any page of the Diet Center;<omitted>(c) Women.com will not enter into a relationship with a Competitive Company that involves any of the following; (i) custom developed mini or micro web sites; (ii) content integration; (iii) discounts offered only to Women.com members on the Member Central page of the Women.com Sites; (iv) editorial endorsement (such as<omitted>\"Brought to you by....\") or fixed placement of 468x60 (top) and 125x365 (side) banners within eight (8) of the Content Features selected by eDiets; and (v) anchor sponsorship in any multi-sponsor Women.com promotion.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Exclusivity",
+        "text": "During the Term, eDiets will not buy, sell, display or distribute advertising from (including, but not limited to, banner ads, buttons, badges, text links, hyperlinks or editorial mentions) or otherwise promote any Women.com Compettive Company on any page of the eDiets Site that is within two clicks from the Gateway Page of the Diet Center. | For purposes of this Agreement, \"Competitive Company\" means any company that eDiets reasonably presents as, and Women.com reasonably agrees is, a direct competitor to eDiets by distributing on-line content principally relating to diets and diet counseling, including, but not limited to, Weight Watchers, Jenny Craig, NutriSystem, Nutrio, Asimba, DietSmart and uMagic. | For purposes of this Agreement, \"Women.com Competitive Company\" means any company that Women.com reasonably presents as, and eDiets reasonably agrees is, a direct competitor to Women.com by providing an on-line portal for women, including, but not limited to, Oxygen Media and iVillag",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Minimum Commitment",
+        "text": "If Women.com does not deliver the shortfall within sixty (60) days of the end of the applicable quarter, eDiets may terminate this Agreement in its entirety immediately or authorize Women.com to deliver the shortfall within an extended number of days to be mutually agreed upon by the parties (the \"Make Good Period\"). | Notwithstanding the foregoing, Women.com does guarantee a minimum of 13,000,000 impressions promoting eDiets per year on the Diet Center. | If Women.com does not deliver at least 80% of the Quarterly Impression Guarantee for Advertsing Promotions as set forth on Exhibit B (11,250,000 per quarter; 45,000,000 per year); 80% of the Quarterly Impression Guarantee for the Diet Center Logo as set forth on Exhibit B (3,250,000 per quarter; 13,000,000 per year); and 80% of the Quarterly Impression Guarantee for Other Campaigns as set forth on Exhibit B (3,000,000 per quarter; 12,000,000 per year) each quarter following the Launch Date, within sixty (60) days of the end of the ap",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 7
+  },
+  {
+    "filename": "IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Co_Branding/IntegrityMediaInc_20010329_10-K405_EX-10.17_2373875_EX-10.17_Co-Branding Agreement.pdf",
+    "contract_type": "Co-Branding Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Either party may, at its election, assign this Agreement or          any of its rights or delegate any of its obligations hereunder, in          whole or in part, to any person, firm or corporation owning or          acquiring all or a substantial portion of its assets, to any person,          firm or corporation that is related to it as an affiliate,<omitted>subsidiary or otherwise, or to any person, firm or corporation into          which or with it might merge or consolidate. | In the event of such an<omitted>assignment by either party of its rights to an unrelated third party,          the other party shall be given written notice, then in such event the          other party may upon six-months (6-months) written notice terminate          this Agreement.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Exclusivity",
+        "text": "Integrity will hold exclusive                   worldwide rights to promote and sell the product to/through                   the following distribution channels: Christian retail (CBA or                   Christian Booksellers Association markets), direct mail                   (including continuity sales, church sales, digital and                   e-commerce sales.) | TL will hold exclusive worldwide                   rights to promote and sell the product through the following                   distribution channels: Outgoing telemarketing, General Market                   retail, and General Market catalogs, and exclusive rights                   within the United States for Television Direct response.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "Either party, at its sole expense, upon at least          thirty (30) days written notice (and not more than once in respect of          any accounting period) will have the right to inspect the other party's          books regarding the obligations hereunder for a period of two (2) years          from the date on which any statement is rendered.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Minimum Commitment",
+        "text": "In consideration of the above pricing, TL guarantees to                   purchase from Integrity a minimum of ten thousand (10,000)                   units of each recorded Product during the first thirty-two                   (32) months of release.', \"TL's initial order for each recorded                   Product shall be a minimum of five thousand (5,000) units.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 4
+  },
+  {
+    "filename": "MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Co_Branding/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.pdf",
+    "contract_type": "Co-Branding Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "IN NO EVENT SHALL THE AS PARTIES BE LIABLE FOR SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.', \"In no event shall the AS Parties' indemnification obligations to MusclePharm hereunder exceed the after-tax value of the Cash Consideration received by Lender under this Agreement.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Any attempted assignment or transfer by a party of their rights and/or obligations without such consent shall be void. | The license granted by this Agreement is personal to MusclePharm. | Neither party shall voluntarily or by operation of law assign or otherwise transfer the rights and/or obligations incurred pursuant to the terms of this Agreement without the prior written consent of the other party. | This Agreement may also be terminated by MusclePharm, upon fifteen days prior written notice, if death, or physical disability, physical injury, or other incapacity lasting more than eight (8) weeks, causes Endorser to be unable to perform a material amount of the personal or consulting services described in this Agreement. | Except as set forth below, MusclePharm shall not assign or otherwise transfer, license, sublicense, or delegate any rights or obligations under this Agreement without the express prior written consent of the AS Parties.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Change Of Control",
+        "text": "Nothwithstanding the foregoing, this Agreement may be assigned without the AS Parties' consent by MusclePharm in connection with a change of control transaction; provided that the acquirer of MusclePharm shall have financial resources substantially similar or greater than MusclePharm and shall specifically assume the obligations of MusclePharm under this Agreement in writing prior to the consummation of the change of control transaction.\", 'Neither party shall voluntarily or by operation of law assign or otherwise transfer the rights and/or obligations incurred pursuant to the terms of this Agreement without the prior written consent of the other party.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Ip Ownership Assignment",
+        "text": "All such works based upon the Trademarks and/or Name and Appearance Rights shall be prepared by an employee-for- hire of MusclePharm (under MusclePharms's sole supervision, responsibility, and monetary obligation) or as a work-for-hire by a third party who assigns to the AS Parties in writing and in perpetuity throughout the universe all right, title, and interest in the same provided however, nothing herein shall preclude MusclePharm from using any of the intellectual property to be retained by MusclePharm contemplated pursuant to Section 9(f) of this Agreement after the termination of this Agreement.\", 'MusclePharm agrees that any copyrights in works created based upon the Trademarks and/or Name and Appearance Rights shall become the rights of the AS Parties (as among them to be determined among them)', \"MusclePharm irrevocably and unconditionally transfers and assigns to the AS Parties in perpetuity and throughout the universe any and all of MusclePharm's right, title, and interest,",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Non-Compete",
+        "text": "Products. Any failure of Endorser to disclose such conflicting interests, or any breach of this Section, shall be deemed a material breach of the Agreement.', \"Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement.\", \"Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement. Endorser's non-competition obligation shall not be required in the event of a material breach of this Agreement by MusclePharm.\", 'Endorser shall not use or provide endorsements or testimonials for products that compete with MusclePharm Products or the Licensed Products.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Exclusivity",
+        "text": "During the term of this Agreement, or any extensions of this Agreement, Endorser and the Lender hereby agree and warrant that it will not enter into any other endorsement agreement for the use of Endorser's name, image and/or likeness for advertising, marketing and/or endorsement of any other dietary supplements during the Term of this Agreemen",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "MusclePharm shall at all reasonable times during the Term (but no more than once during each Contract Year of the Term), and upon reasonable notice, permit the AS Parties to send their authorized representatives to inspect the facilities of MusclePharm or its agents in order to confirm that the production of the Licensed Products hereunder is in compliance with the quality standards set out herein and, at MusclePharm's expense, randomly test the formulas of the Licensed Products for quality control purposes, although the AS Parties will have no obligation to do so.\", \"In the event a shortfall in the amount of five percent (5%) or more is discovered, MusclePharm shall reimburse the AS Parties for the cost of the audit including any reasonable attorney's fees incurred in connection therewith.\", 'Lender understands that all books, records, and documents of MusclePharm relating to it have been and remain available for inspection by him or his business and financial advisors upon reasonable",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Insurance",
+        "text": "MusclePharm shall, throughout the Term of the Agreement and for a period of not less than four years thereafter, obtain and maintain at its own cost and expense from a qualified insurance company licensed to do business in California and New York, a commercial general liability insurance policy including coverage for contractual liability (applying to the terms and conditions of this agreement), product liability, personal injury liability, and advertiser's liability, in a form approved by the AS Parties, in the amount of at least Five Million Dollars (US$5,000,000) per occurrence naming the AS Parties (for the avoidance of doubt, specifically including each of Lender, Endorser, and Fitness) as additional named insureds\", 'Without limiting the generality of the foregoing, such policy shall provide protection against any and all claims, demands, and causes of action arising out of any defects or failure to perform, alleged or otherwise, of the Products and Licensed Products or any mater",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Minimum Commitment",
+        "text": "Notwithstanding the foregoing, Lender shall be entitled to receive a guaranteed minimum royalty for each Contract Year including the Additional Term, if any (the \"Guaranteed Minimum Royalty\"), payable in accordance with Exhibit \"C\" attached hereto. | Endorser shall also supply MusclePharm with at least fifty (50) signed items for each Contract Year, on the Licensed Products or on other items to be mutually agreed upon by the parties hereto, to be used by MusclePharm in connection with the promotion of the Products and/or Licensed Products. | Guaranteed Minimum Royalty during the initial Term:   Contract Year   Minimum Royalty   Timing of Payment One   $1,500,000   $500,000 payment due on the following dates: July 23, 2013; October 1, 2013; February 1, 2014 Two   $2,000,000   $666,666.66 payment due on the following dates: July 23, 2014; October 1, 2014; February 1, 2015 Three   $2,500,000   $833,333.33 payment due on the following dates: July 23, 2015; October 1, 2015; February 1, 2016",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 9
+  },
+  {
+    "filename": "TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.pdf",
+    "local_pdf_path": "../CUAD_v1/full_contract_pdf/Part_I/Co_Branding/TomOnlineInc_20060501_20-F_EX-4.46_749700_EX-4.46_Co-Branding Agreement.pdf",
+    "contract_type": "Co-Branding Agreement",
+    "source": "cuad",
+    "ground_truth_clauses": [
+      {
+        "clause_type": "Cap On Liability",
+        "text": "TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, EXCEPT FOR THE WILFUL MISAPPROPRIATION OR INFRINGEMENT OF THE INTELLECTUAL PROPERTY OF A PARTY TO THIS AGREEMENT, OR THE OBLIGATIONS OF THE PARTIES TO THIS AGREEMENT PURSUANT TO SECTION 13, (A) THE LIABILITY OF ANY PARTY TO THIS AGREEMENT, IF ANY, FOR DAMAGES FOR ANY CLAIM OF ANY KIND WHATSOEVER AND REGARDLESS OF THE LEGAL THEORY, WITH REGARD TO THE RIGHTS GRANTED HEREUNDER OR THE SERVICES PERFORMED HEREUNDER, SHALL NOT INCLUDE COMPENSATION, REIMBURSEMENT OR DAMAGES ON ACCOUNT OF THE LOSS OF PRESENT OR PROSPECTIVE PROFITS, EXPENDITURES, DATA, OPPORTUNITY, ANTICIPATED SAVINGS, INVESTMENTS OR COMMITMENTS, WHETHER MADE IN ESTABLISHMENT, DEVELOPMENT OR MAINTENANCE OF REPUTATION OR GOODWILL OR FOR ANY OTHER REASON WHATSOEVER; AND (B) IN NO EVENT SHALL ANY PARTY TO THIS AGREEMENT BE LIABLE TO THE OTHER PARTIES TO THIS AGREEMENT FOR SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL, PUNITIVE OR CONSEQUENTIAL DAMAGES. | THE FOREGOING PROVISION",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Uncapped Liability",
+        "text": "THE PARTIES ACKNOWLEDGE AND AGREE THAT NOTHING IN THIS SECTION 12.2 SHALL LIMIT A PARTY'S OBLIGATION TO PAY ANY AMOUNTS DUE AND OWING TO THE OTHER PARTY UNDER SECTION 5 ON OR BEFORE ANY DATE OF EXPIRATION OR TERMINATION HEREOF.\", 'TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, EXCEPT FOR THE WILFUL MISAPPROPRIATION OR INFRINGEMENT OF THE INTELLECTUAL PROPERTY OF A PARTY TO THIS AGREEMENT, OR THE OBLIGATIONS OF THE PARTIES TO THIS AGREEMENT PURSUANT TO SECTION 13, (A) THE LIABILITY OF ANY PARTY TO THIS AGREEMENT, IF ANY, FOR DAMAGES FOR ANY CLAIM OF ANY KIND WHATSOEVER AND REGARDLESS OF THE LEGAL THEORY, WITH REGARD TO THE RIGHTS GRANTED HEREUNDER OR THE SERVICES PERFORMED HEREUNDER, SHALL NOT INCLUDE COMPENSATION, REIMBURSEMENT OR DAMAGES ON ACCOUNT OF THE LOSS OF PRESENT OR PROSPECTIVE PROFITS, EXPENDITURES, DATA, OPPORTUNITY, ANTICIPATED SAVINGS, INVESTMENTS OR COMMITMENTS, WHETHER MADE IN ESTABLISHMENT, DEVELOPMENT OR MAINTENANCE OF REPUTATION OR GOODWILL OR FOR ANY OTHER R",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Anti-Assignment",
+        "text": "Notwithstanding the foregoing, upon the prior written approval of Online BVI, which approval may be withheld in its sole discretion, the Company shall be permitted to sublicense its rights hereunder to a wholly-owned Subsidiary of the Company or a majority-owned Subsidiary of Tom Holding, for the same purpose and under the same terms and conditions as the license set forth herein. | This Agreement may not be assigned by a party to this Agreement to any other Person without the express written approval of the other parties to this Agreement and any attempt at assignment in violation of this section shall be null and void.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Change Of Control",
+        "text": "Notwithstanding the foregoing, Skype or Skype Holding may assign this Agreement to a third party without such consent in the event of a merger, reorganization or sale of all or substantially all of Skype's or Skype Holding's assets or voting securities, provided that written notice of such assignment is delivered to Online BVI and the Company and the assignee assumes all the responsibilities and obligations provided herein.",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Ip Ownership Assignment",
+        "text": "if such rights comprise (i) intellectual property that constitutes predominantly communication software or related communication hardware or other technology, including without limitation, any upgrades and Improvements thereof, or (ii) any \"user\" names, and other \"user profile\" information included within the Company-Skype Branded Application (i.e., dates of birth, addresses, languages spoken, etc.), of Company-Skype Branded Customers collected as part of the registration process for the Company-Skype Branded Application (it being understood that Skype will make such user information available to Online BVI and the Company for use consistent with the applicable privacy policies and the EULA) and any database incorporating the same, then such rights shall be owned exclusively by Skype and neither Online BVI nor the Company will grant, nor claim for itself or its affiliated entities, independent contractors, or employees, either expressly or impliedly, any rights, title, interest, or lic",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Non-Compete",
+        "text": "Notwithstanding any portion of the foregoing to the contrary, the Non-Competition Period shall terminate prior to the End Date, and for the avoidance of doubt, no party shall be obligated to comply with the restrictions set out in Section 8.1 after the termination of the Non-Competition Period: | Each Party agrees that, from the Effective Date and through the three (3) month period (\"Enterprise Non-Competition Period\") immediately following the date (\"Enterprise Launch Date\") that Skype launches an enterprise version of the Skype Software primarily targeted for non-Consumer customers (\"Enterprise Skype Software\"), no Party, nor any of their respective Subsidiaries, will (i) discuss, negotiate or enter into (whether verbal or in writing) with any third Person or other third party (\"Other Party\") any understanding, arrangement, or memorandum of understanding, letter of intent, agreement or any other documents (whether or not legally binding); and/or (ii) voluntarily accept or solicit any",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      },
+      {
+        "clause_type": "Audit Rights",
+        "text": "During such audits, the auditing Party shall have the right to take extracts and/or make copies of the audited Party's records as it deems necessary\", \"Not more than once per calendar quarter, each Party or its independent auditor (who shall be a certified public accountant) shall have the right, on not less than fifteen (15) calendar days prior notice and not during the first twenty (20) days after the close of any fiscal quarter of the other Parties, or within sixty (60) day of the close of such Parties' respective fiscal years, to audit the books of account and records of any and all such Parties. Such audit shall be conducted at the premises where the audited Party maintains consolidated books of account; provided however, that the auditing Party may conduct all or any part of such audit at any of the audited Party's premises where any relevant books of account and/or records are located\", 'The exercise by any Party in whole or in part, at any time of the right to inspect and/or au",
+        "answer": "Yes",
+        "is_cuad_labeled": true
+      }
+    ],
+    "num_risk_clauses": 7
+  }
+]

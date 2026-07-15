@@ -1,0 +1,28 @@
+# Temporal
+temporalio>=1.0.0
+ 
+# Database
+asyncpg>=0.29.0
+pgvector>=0.2.0
+ 
+# PDF extraction
+pymupdf>=1.23.0
+pymupdf4llm>=0.0.5
+ 
+# OCR (optional — install only if you need it)
+# pytesseract>=0.3.10
+# pdf2image>=1.16.3
+# Pillow>=10.0.0
+ 
+# S3
+boto3>=1.28.0
+ 
+# LLM
+openai>=1.0.0
+json-repair>=0.1.0
+ 
+# CUAD dataset
+datasets>=2.14.0
+ 
+# Utilities
+python-dotenv>=1.0.0
